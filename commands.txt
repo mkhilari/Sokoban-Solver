@@ -1,0 +1,10 @@
+Play game 
+./sokoban <map> 
+./sokoban test_maps/test_map2 
+
+Solve game 
+./sokoban -s <map> play_solution 
+./sokoban -s test_maps/test_map3 play_solution 
+
+Memory leak check 
+valgrind --leak-check=full --track-origins=yes ./sokoban -s test_maps/test_map3 play_solution 

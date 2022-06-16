@@ -1,0 +1,925 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_first_db
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_home_terminfo
+   fun:_nc_first_db
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_tparm_analyze
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:tparm
+   fun:_nc_mvcur_init_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:make_map
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:make_map
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_add_to_try
+   fun:_nc_init_keytry
+   fun:_nc_keypad
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_first_db
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:make_map
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:make_map
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   fun:_nc_doalloc
+   fun:_nc_read_termtype
+   obj:/usr/lib/libncursesw.so.6.2
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_first_db
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   fun:_nc_doalloc
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:tparm
+   fun:_nc_mvcur_init_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_scroll_optimize_sp
+   fun:doupdate_sp
+   fun:wrefresh
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   fun:_nc_doalloc
+   fun:_nc_read_termtype
+   obj:/usr/lib/libncursesw.so.6.2
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_read_termtype
+   obj:/usr/lib/libncursesw.so.6.2
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_read_termtype
+   obj:/usr/lib/libncursesw.so.6.2
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_makenew_sp
+   fun:newwin_sp
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_makenew_sp
+   fun:newwin_sp
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_makenew_sp
+   fun:newwin_sp
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_hash_map_sp
+   fun:_nc_scroll_optimize_sp
+   fun:doupdate_sp
+   fun:wrefresh
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_hash_map_sp
+   fun:_nc_scroll_optimize_sp
+   fun:doupdate_sp
+   fun:wrefresh
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_add_to_try
+   fun:_nc_init_keytry
+   fun:_nc_keypad
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_makenew_sp
+   fun:newwin_sp
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_makenew_sp
+   fun:newwin_sp
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_makenew_sp
+   fun:newwin_sp
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_add_to_try
+   fun:_nc_init_keytry
+   fun:_nc_keypad
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_read_termtype
+   obj:/usr/lib/libncursesw.so.6.2
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:new_prescr
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_add_to_try
+   fun:_nc_init_keytry
+   fun:_nc_keypad
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_hash_map_sp
+   fun:_nc_scroll_optimize_sp
+   fun:doupdate_sp
+   fun:wrefresh
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   fun:_nc_doalloc
+   fun:_nc_read_termtype
+   obj:/usr/lib/libncursesw.so.6.2
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_read_entry2
+   fun:_nc_setup_tinfo
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/libncursesw.so.6.2
+   fun:_nc_setupterm
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_init_wacs
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_printf_string_sp
+   fun:vw_printw
+   fun:mvprintw
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:read_map
+   fun:open_map
+   fun:make_map
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:newwin_sp
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:newwin_sp
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:newwin_sp
+   fun:_nc_setupscreen_sp
+   fun:newterm_sp
+   fun:newterm
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack
+   fun:runtime.rt0_go
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack
+   fun:runtime.rt0_go
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustpointer
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack
+   fun:runtime.rt0_go
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustpointer
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack
+   fun:runtime.rt0_go
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:x_cgo_sys_thread_create
+   fun:_rt0_amd64_lib
+   fun:call_init
+   fun:_dl_init
+   obj:/usr/lib/ld-2.33.so
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   fun:runtime.newm
+   fun:runtime.main.func1
+   fun:runtime.systemstack
+   obj:/mnt/share/ed/libX11.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   fun:runtime.newm
+   fun:runtime.startm
+   fun:runtime.newproc1
+   fun:runtime.newproc.func1
+   fun:runtime.systemstack
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   fun:runtime.newm
+   fun:runtime.startm
+   fun:runtime.handoffp
+   fun:runtime.stoplockedm
+   fun:runtime.schedule
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   fun:runtime.malg.func1
+   fun:runtime.systemstack
+   obj:/mnt/share/ed/libX11.so
+   fun:runtime.rt0_go
+}
+{
+   <edstem-suppression>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:x_cgo_sys_thread_create
+   fun:_rt0_amd64_lib
+   fun:call_init
+   fun:_dl_init
+   obj:/usr/lib/ld-2.33.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack.abi0
+   fun:runtime.newproc.abi0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustpointer
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack.abi0
+   fun:runtime.newproc.abi0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   fun:runtime.adjustpointer
+   fun:runtime.adjustframe
+   fun:runtime.gentraceback
+   fun:runtime.copystack
+   fun:runtime.newstack
+   fun:runtime.morestack.abi0
+   fun:runtime.newproc.abi0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:x_cgo_sys_thread_create
+   fun:_rt0_amd64_lib
+   obj:*
+   fun:call_init
+   fun:_dl_init
+   obj:/usr/lib/ld-2.33.so
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall.abi0
+   obj:*
+   fun:runtime.newm
+   fun:runtime.main.func1
+   fun:runtime.systemstack.abi0
+   fun:runtime.newproc.abi0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall.abi0
+   fun:runtime.newobject
+   obj:*
+   fun:runtime.newm
+   fun:runtime.startm
+   fun:runtime.wakep
+   fun:runtime.newproc.func1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall.abi0
+   fun:runtime.newobject
+   obj:*
+   fun:runtime.newm
+   fun:runtime.startm
+   fun:runtime.handoffp
+   fun:runtime.stoplockedm
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dl_allocate_tls
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_cgo_try_pthread_create
+   fun:_cgo_sys_thread_start
+   fun:runtime.asmcgocall.abi0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_makenew_sp
+   fun:newwin_sp
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_scroll_optimize_sp
+   fun:doupdate_sp
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_hash_map_sp
+   fun:_nc_scroll_optimize_sp
+   fun:doupdate_sp
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_hash_map_sp
+   fun:_nc_scroll_optimize_sp
+   fun:doupdate_sp
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_nc_makenew_sp
+   fun:newwin_sp
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_nc_hash_map_sp
+   fun:_nc_scroll_optimize_sp
+   fun:doupdate_sp
+   fun:play
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:newwin_sp
+   fun:play
+   fun:main
+}
